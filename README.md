@@ -22,14 +22,14 @@ Open your terminal, and run the following commands:
 3. `./bnsch.out`
 
 #### Drawing figures
-Run the different `.m` files in MATLAB
+Run the different `.m` files in MATLAB.
 
 #### Deleting all the results
-Input `make clean` in your terminal
+Input `make clean` in your terminal.
 
 ### Windows
 A Makefile for Windows has not been provided at this moment. Please follow these steps to compile and run the code manually.
-1. Create folders named `data1`, `data2`, `data3`
-2. Compile all the `*.cpp` & `*.h` files
+1. Create folders named `data1`, `data2`, `data3` in the same path as codes.
+2. Compile all the `*.cpp` & `*.h` files.
 3. Run the generated `.exe` file.
 4. Run the different `.m` files in MATLAB for drawing figures
