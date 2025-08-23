@@ -2,7 +2,7 @@
 This project provides the source code for the paper, *Numerical simulation of multiple vesicles with a N-phase phase-field system*. The code is used to generate the results shown in Section 4.15 (figure 10 and 11) of the paper.
 
 ## Author
-Yutong Wu, Zecheng Qiu, Juxiang Yang* \
+Yutong Wu, Zecheng Qiu, Junxiang Yang* \
 \*Corresponding Author
 
 ## File Descriptions
