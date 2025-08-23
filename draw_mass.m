@@ -1,0 +1,46 @@
+close all; clear ; clc;
+
+y1 = load('volume1.m');                     
+
+dt = 2e-5;
+nPoints = length(y1);
+t = (0:nPoints-1)*dt;
+figure;
+plot(t, y1, 'b-', ...
+    'Marker', 'o', ...
+    'MarkerFaceColor', 'b', ...   
+    'MarkerEdgeColor', 'b', ...
+    'LineWidth', 1.2, ... 
+    'MarkerIndices', 1:1000:length(y1));
+
+hold on;
+y2 = load('volume2.m');
+plot(t, y2, 'r-', ...
+    'Marker', '^', ...
+    'MarkerFaceColor', 'r', ...
+    'MarkerEdgeColor', 'r', ...
+    'LineWidth', 1.2, ... 
+    'MarkerIndices', 1:1000:length(y2));
+
+y3 = load('volume3.m');
+plot(t, y3, 'g-', ...
+    'Marker', 's', ...
+    'MarkerFaceColor', 'g', ...
+    'MarkerEdgeColor', 'g', ...
+    'MarkerIndices', 50:1050:length(y2));
+
+
+hold off;
+
+xlabel('Time (s)');
+ylabel('Data');
+grid on;
+
+legend("A","B","C");
+
+set(gca,'fontsize',14)
+text('Interpreter','latex','String','$x$','Position',[0.891962081682177 -0.0577590895778421 7.105427357601e-15],'FontSize',19);
+text('Interpreter','latex','String','$y$','Position',[-0.0749639883567335 0.915105165952411 7.105427357601e-15],'FontSize',19);
+
+tt = sprintf('mass.eps');
+print('-deps', tt);
