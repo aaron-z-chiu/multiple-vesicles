@@ -10,6 +10,7 @@ Yutong Wu, Zecheng Qiu, Junxiang Yang* \
 * `show.m`: MATLAB script to visualize the final state of the vesicles.
 * `draw_area.m`:  MATLAB script to plot the change in vesicle area over time.
 * `draw_mass.m`: MATLAB script to plot the change in mass over time.
+* `makefile`:  For macOS and Linux systems, automates the compilation and cleaning process.
 
 ## Compilation and Execution
 ### MacOS/Linux
@@ -27,7 +28,7 @@ Run the different `.m` files in MATLAB
 Input `make clean` in your terminal
 
 ### Windows
-We have not supported the makefile for Windows at present, please do the following in order to run the programs.
+A Makefile for Windows has not been provided at this moment. Please follow these steps to compile and run the code manually.
 1. Create folders named `data1`, `data2`, `data3`
 2. Compile all the `*.cpp` & `*.h` files
 3. Run the generated `.exe` file.
