@@ -5,13 +5,13 @@ This project provides the source code for the paper, *Numerical simulation of mu
 Yutong Wu, Zecheng Qiu, Juxiang Yang* \
 \*Corresponding Author
 
-## Files
-* `*.cpp` & `*.h`: Calculation codes
-* `show.m`: demostrate the figure of models
-* `draw_area.m`: Showing a line chart of the area with time
-* `draw_mass.m`: Showing a line chart of the mass with time
+## File Descriptions
+* `*.cpp` & `*.h`: C++ source and header files for the calculation.
+* `show.m`: MATLAB script to visualize the final state of the vesicles.
+* `draw_area.m`:  MATLAB script to plot the change in vesicle area over time.
+* `draw_mass.m`: MATLAB script to plot the change in mass over time.
 
-## Compile and run
+## Compilation and Execution
 ### MacOS/Linux
 
 #### Compiling and running the calculation codes
