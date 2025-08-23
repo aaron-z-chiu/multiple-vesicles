@@ -16,7 +16,7 @@ Yutong Wu, Zecheng Qiu, Juxiang Yang* \
 
 #### Compiling and running the calculation codes
 Open your terminal, and run the following commands:
-1. `cd [Your data path]`
+1. `cd /path/to/your/data`
 2. `make all`
 3. `./bnsch.out`
 
