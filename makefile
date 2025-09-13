@@ -7,7 +7,7 @@ bnsch.o: bnsch.cpp
 bnsch.out: util.o bnsch.o
 	g++ -o bnsch.out bnsch.o util.o
 
-file:
+folder:
 	mkdir -p data1
 	mkdir -p data2
 	mkdir -p data3
@@ -15,10 +15,11 @@ file:
 clean:
 	rm *.o
 
-all: file bnsch.out clean 
+all: folder bnsch.out clean 
 
 delete:
 	rm -rf data1 data2 data3
 	rm *.out
 	find . -maxdepth 1 -name '*.m' ! -name 'show.m' ! -name 'draw_area.m' ! -name 'draw_mass.m' -delete
 	rm *.eps
+
