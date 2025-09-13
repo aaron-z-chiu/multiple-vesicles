@@ -27,7 +27,8 @@ Run the different `.m` files in MATLAB.
 #### Deleting all the results
 Input `make delete` in your terminal.
 
-Warning: Executing this command will **permanently remove** all generated data files (e.g., `.m` files containing calculated results) and figure files (e.g., `.eps` files) from the output directory. This operation is irreversible. Please ensure you have backed up any critical results before proceeding.
+##### Special Warning
+Executing this command will **permanently remove** all generated data files (e.g., `.m` files containing calculated results) and figure files (e.g., `.eps` files) from the output directory. This operation is irreversible. Please ensure you have backed up any critical results before proceeding.
 
 ### Windows
 A Makefile for Windows has not been provided at this moment. Please follow the steps below to compile and run the code manually:
