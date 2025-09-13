@@ -5,15 +5,17 @@ bnsch.o: bnsch.cpp
 	g++ -c bnsch.cpp
 
 bnsch.out: util.o bnsch.o
+	g++ -o bnsch.out bnsch.o util.o
+
+file:
 	mkdir -p data1
 	mkdir -p data2
 	mkdir -p data3
-	g++ -o bnsch.out bnsch.o util.o
 
 clean:
 	rm *.o
 
-all: bnsch.out clean 
+all: file bnsch.out clean 
 
 delete:
 	rm -rf data1 data2 data3
