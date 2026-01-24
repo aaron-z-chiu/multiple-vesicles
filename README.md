@@ -35,3 +35,22 @@ A Makefile for Windows has not been provided at this moment. Please follow the s
 2. Compile all the `*.cpp` & `*.h` files.
 3. Run the generated `.exe` file.
 4. Run the different `.m` files in MATLAB for drawing figures
+
+## Citation
+If you use this code for your research, please cite our paper:
+
+Yutong Wu, Zecheng Qiu, Junxiang Yang. *Numerical simulation of multiple vesicles with a N-phase phase-field system*. Computer Physics Communications (2026).
+
+**DOI**: [10.1016/j.cpc.2026.110053](https://doi.org/10.1016/j.cpc.2026.110053)
+
+If you use BibTeX, please use the following entry:
+
+```bibtex
+@article{Wu2026,
+  title = {Numerical simulation of multiple vesicles with a N-phase phase-field system},
+  journal = {Computer Physics Communications},
+  year = {2026},
+  doi = {10.1016/j.cpc.2026.110053},
+  url = {[https://doi.org/10.1016/j.cpc.2026.110053](https://doi.org/10.1016/j.cpc.2026.110053)},
+  author = {Wu, Yutong and Qiu, Zecheng and Yang, Junxiang}
+}
