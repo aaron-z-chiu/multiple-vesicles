@@ -40,11 +40,11 @@ figure;
     
   
     p = patch(isosurface(xx, yy, zz, S, 0));
-    set(p, 'FaceColor', 'r', 'EdgeColor', 'none');hold on;
+    set(p, 'FaceColor', [0.3010 0.7450 0.9330], 'EdgeColor', 'none');hold on;
     p2 = patch(isosurface(xx, yy, zz, S2, 0));
-    set(p2, 'FaceColor', [0.3010 0.7450 0.9330], 'EdgeColor', 'none');
+    set(p2, 'FaceColor','r' , 'EdgeColor', 'none');
     p3 = patch(isosurface(xx, yy, zz, S3, 0));
-    set(p3, 'FaceColor', 'y', 'EdgeColor', 'none');
+    set(p3, 'FaceColor', 'g', 'EdgeColor', 'none');
     daspect([1 1 1]);
     view(36, 47);
     camlight; lighting phong;
@@ -54,6 +54,13 @@ figure;
     axis image;
     axis off;
     xlabel('x'); ylabel('y'); zlabel('z', 'rotation', 1);
+    %title("pp=",pp);
+
+    legend("Vesicle 1","Vesicle 2","Vesicle 3");
+
+    set(gca,'fontsize',14)
+    text('Interpreter','latex','String','$x$','Position',[0.891962081682177 -0.0577590895778421 7.105427357601e-15],'FontSize',19);
+    text('Interpreter','latex','String','$y$','Position',[-0.0749639883567335 0.915105165952411 7.105427357601e-15],'FontSize',19);
 
 tt = sprintf('cells_in_space.eps');
 print('-deps', tt);

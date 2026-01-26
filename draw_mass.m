@@ -33,10 +33,10 @@ plot(t, y3, 'g-', ...
 hold off;
 
 xlabel('Time (s)');
-ylabel('Data');
+ylabel('Mass');
 grid on;
 
-legend("A","B","C");
+legend("Vesicle 1","Vesicle 2","Vesicle 3");
 
 set(gca,'fontsize',14)
 text('Interpreter','latex','String','$x$','Position',[0.891962081682177 -0.0577590895778421 7.105427357601e-15],'FontSize',19);
