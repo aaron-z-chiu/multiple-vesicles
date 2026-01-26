@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the associated paper as below."
+authors:
+  - family-names: "Wu"
+    given-names: "Yutong"
+  - family-names: "Qiu"
+    given-names: "Zecheng"
+  - family-names: "Yang"
+    given-names: "Junxiang"
+title: "Simulation Code for 3D Multi-phase-field Vesicles Model"
+repository-code: "https://github.com/aaron-z-chiu/multiple-vesicles"
+preferred-citation:
+  type: article
+  authors:
+    - family-names: "Wu"
+      given-names: "Yutong"
+    - family-names: "Qiu"
+      given-names: "Zecheng"
+    - family-names: "Yang"
+      given-names: "Junxiang"
+  title: "A three-dimensional multi-phase-field vesicles model and its practical finite difference solver"
+  journal: "Computer Physics Communications"
+  year: 2026
+  pages: "110053"
+  doi: "10.1016/j.cpc.2026.110053"
