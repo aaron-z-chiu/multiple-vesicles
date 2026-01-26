@@ -10,7 +10,9 @@ Yutong Wu, Zecheng Qiu, Junxiang Yang* \
 * `show.m`: MATLAB script to visualize the final state of the vesicles.
 * `draw_area.m`:  MATLAB script to plot the change in vesicle area over time.
 * `draw_mass.m`: MATLAB script to plot the change in mass over time.
+* `draw_energy.m`: MATLAB script to plot the change in energy over time.
 * `makefile`:  For macOS and Linux systems, automates the compilation and cleaning process.
+* `CITATION.cff`: Standard citation format file for this program.
 
 ## Compilation and Execution
 ### MacOS/Linux
