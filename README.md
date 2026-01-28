@@ -11,11 +11,11 @@ Yutong Wu, Zecheng Qiu, Junxiang Yang* \
 * `draw_area.m`:  MATLAB script to plot the change in vesicle area over time.
 * `draw_mass.m`: MATLAB script to plot the change in mass over time.
 * `draw_energy.m`: MATLAB script to plot the change in energy over time.
-* `makefile`:  For macOS and Linux systems, automates the compilation and cleaning process.
+* `makefile`:  For macOS, Linux, WSL (Windows) systems, automates the compilation and cleaning process.
 * `CITATION.cff`: Standard citation format file for this program.
 
 ## Compilation and Execution
-### MacOS/Linux
+### MacOS/Linux/WSL (Windows)
 
 #### Compiling and running the calculation codes
 Open your terminal, and run the following commands:
@@ -31,12 +31,11 @@ Input `make delete` in your terminal.
 
 Warning: Executing this command will **permanently remove** all generated data files (e.g., `.m` files containing calculated results) and figure files (e.g., `.eps` files) from the output directory. This operation is irreversible. Please ensure you have backed up any critical results before proceeding.
 
-### Windows
-A Makefile for Windows has not been provided at this moment. Please follow the steps below to compile and run the code manually:
-1. Create folders named `data1`, `data2`, `data3` in the same path as codes.
-2. Compile all the `*.cpp` & `*.h` files.
-3. Run the generated `.exe` file.
-4. Run the different `.m` files in MATLAB for drawing figures
+### Plot figures & graphs
+* For vesicles visualization, run `show.m` in MATLAB.
+* For line chart for area over time, run `draw_area.m` in MATLAB.
+* For line chart for mass over time, run `draw_mass.m` in MATLAB.
+* For line chart for energy over time, run `draw_energy.m` in MATLAB.
 
 ## Citation
 If you use this code for your research, please cite our paper:
