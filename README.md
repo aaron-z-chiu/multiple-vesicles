@@ -48,14 +48,15 @@ Yutong Wu, Zecheng Qiu, Junxiang Yang. *Numerical simulation of multiple vesicle
 If you use BibTeX, please use the following entry:
 
 ```bibtex
-@article{Wu2026,
-title = {A three-dimensional multi-phase-field vesicles model and its practical finite difference solver},
-journal = {Computer Physics Communications},
-pages = {110053},
-year = {2026},
-issn = {0010-4655},
-doi = {https://doi.org/10.1016/j.cpc.2026.110053},
-url = {https://www.sciencedirect.com/science/article/pii/S0010465526000354},
-author = {Yutong Wu and Zecheng Qiu and Junxiang Yang},
+@Article{Wu2026,
+  author    = {Wu, Yutong and Qiu, Zecheng and Yang, Junxiang},
+  journal   = {Comput. Phys. Commun.},
+  title     = {A three-dimensional multi-phase-field vesicles model and its practical finite difference solver},
+  year      = {2026},
+  issn      = {0010-4655},
+  pages     = {110053},
+  doi       = {10.1016/j.cpc.2026.110053},
+  fjournal  = {Computer Physics Communications},
+  publisher = {Elsevier BV},
 }
 ```
