@@ -31,7 +31,7 @@ Input `make delete` in your terminal.
 
 Warning: Executing this command will **permanently remove** all generated data files (e.g., `.m` files containing calculated results) and figure files (e.g., `.eps` files) from the output directory. This operation is irreversible. Please ensure you have backed up any critical results before proceeding.
 
-### Plot figures & graphs
+#### Plot figures & graphs
 * For vesicles visualization, run `show.m` in MATLAB.
 * For line chart for area over time, run `draw_area.m` in MATLAB.
 * For line chart for mass over time, run `draw_mass.m` in MATLAB.
