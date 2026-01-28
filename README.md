@@ -23,19 +23,16 @@ Open your terminal, and run the following commands:
 2. `make all`
 3. `./bnsch.out`
 
-#### Drawing figures
-Run the different `.m` files in MATLAB.
-
-#### Deleting all the results
-Input `make delete` in your terminal.
-
-Warning: Executing this command will **permanently remove** all generated data files (e.g., `.m` files containing calculated results) and figure files (e.g., `.eps` files) from the output directory. This operation is irreversible. Please ensure you have backed up any critical results before proceeding.
-
 #### Plot figures & graphs
 * For vesicles visualization, run `show.m` in MATLAB.
 * For line chart showing area over time, run `draw_area.m` in MATLAB.
 * For line chart showing mass over time, run `draw_mass.m` in MATLAB.
 * For line chart showing energy over time, run `draw_energy.m` in MATLAB.
+
+#### Deleting all the results
+Input `make delete` in your terminal.
+
+Warning: Executing this command will **permanently remove** all generated data files (e.g., `.m` files containing calculated results) and figure files (e.g., `.eps` files) from the output directory. This operation is irreversible. Please ensure you have backed up any critical results before proceeding.
 
 ## Citation
 If you use this code for your research, please cite our paper:
