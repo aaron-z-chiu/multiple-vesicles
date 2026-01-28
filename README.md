@@ -33,9 +33,9 @@ Warning: Executing this command will **permanently remove** all generated data f
 
 #### Plot figures & graphs
 * For vesicles visualization, run `show.m` in MATLAB.
-* For line chart for area over time, run `draw_area.m` in MATLAB.
-* For line chart for mass over time, run `draw_mass.m` in MATLAB.
-* For line chart for energy over time, run `draw_energy.m` in MATLAB.
+* For line chart showing area over time, run `draw_area.m` in MATLAB.
+* For line chart showing mass over time, run `draw_mass.m` in MATLAB.
+* For line chart showing energy over time, run `draw_energy.m` in MATLAB.
 
 ## Citation
 If you use this code for your research, please cite our paper:
