@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <cstdlib> //#include <malloc.h>
+#include <cstdlib> 
 #include <math.h>
 #include "util.h"
 #include "bnsch.h"

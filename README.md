@@ -1,25 +1,29 @@
 # multiple-vesicles
-This project provides the source code for the paper, *Numerical simulation of multiple vesicles with a N-phase phase-field system*. The code is used to generate the results shown in Section 4.3.5 (figure 11 and 12) of the paper.
+This project provides the source code for the paper, *Numerical simulation of multiple vesicles with a N-phase phase-field system*. The code is used to generate the results shown in Section 4.3.4 (figure 9 and 10) & 4.3.5 (figure 11 and 12) of the paper.
 
 ## Author
 Yutong Wu, Zecheng Qiu, Junxiang Yang* \
 \*Corresponding Author
 
 ## File Descriptions
+
+### In the root folder
+* `makefile`:  For macOS, Linux, WSL (Windows) systems, automates the compilation and cleaning process.
+* `CITATION.cff`: Standard citation format file for this program.
+
+### In 4_3_4, 4_3_5 (corresponding to the section number in the paper respectively)
 * `*.cpp` & `*.h`: C++ source and header files for the calculation.
 * `show.m`: MATLAB script to visualize the final state of the vesicles.
 * `draw_area.m`:  MATLAB script to plot the change in vesicle area over time.
 * `draw_mass.m`: MATLAB script to plot the change in mass over time.
 * `draw_energy.m`: MATLAB script to plot the change in energy over time.
-* `makefile`:  For macOS, Linux, WSL (Windows) systems, automates the compilation and cleaning process.
-* `CITATION.cff`: Standard citation format file for this program.
 
 ## Compilation and Execution
 ### MacOS/Linux/WSL (Windows)
 
 #### Compiling and running the calculation codes
 Open your terminal, and run the following commands:
-1. `cd /path/to/your/codes`
+1. `cd /path/to/the/section/codes`
 2. `make all`
 3. `./bnsch.out`
 
