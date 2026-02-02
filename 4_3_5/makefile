@@ -20,6 +20,6 @@ all: folder bnsch.out clean
 delete:
 	rm -rf data1 data2 data3
 	rm *.out
-	find . -maxdepth 1 -name '*.m' ! -name 'show.m' ! -name 'draw_area.m' ! -name 'draw_mass.m' -name 'draw_energy.m' -delete
+	find . -maxdepth 1 -name '*.m' ! -name 'show.m' ! -name 'draw_area.m' ! -name 'draw_mass.m' ! -name 'draw_energy.m' -delete
 	rm *.eps
 
