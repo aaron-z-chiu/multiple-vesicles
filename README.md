@@ -3,7 +3,7 @@ This project provides the source code for the paper, *Numerical simulation of mu
 
 The code is used to generate the results shown in Section 4.3.4 (figure 9 and 10) & 4.3.5 (figure 11 and 12) of the paper.
 
-## Author
+## Authors
 Yutong Wu, Zecheng Qiu, Junxiang Yang* \
 \*Corresponding Author
 
