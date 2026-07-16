@@ -41,9 +41,7 @@ Warning: Executing this command will **permanently remove** all generated data f
 ## Citation
 If you use this code for your research, please cite our paper:
 
-Yutong Wu, Zecheng Qiu, Junxiang Yang. *Numerical simulation of multiple vesicles with a N-phase phase-field system*. Computer Physics Communications (2026).
-
-**DOI**: [10.1016/j.cpc.2026.110053](https://doi.org/10.1016/j.cpc.2026.110053)
+Y. Wu, <b>Z. Qiu</b>, J. Yang, A three-dimensional multi-phase-field vesicles model and its practical finite difference solver,Computer Physics Communications 321 (2026) 110053.
 
 If you use BibTeX, please use the following entry:
 
